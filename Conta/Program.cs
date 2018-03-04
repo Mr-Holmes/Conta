@@ -180,7 +180,7 @@ namespace Conta
                     case 1:
                         Console.WriteLine("Digite o seu nome: ");
                         contabanco.Dono = Console.ReadLine();
-                        contabanco.Numconta = random.Next(100, 2000);
+                        contabanco.Numconta = random.Next(100, 3000);
                         Console.WriteLine("Dgite o seu tipo de conta: ");
                         contabanco.AbrirConta(Console.ReadLine());
                         break;
